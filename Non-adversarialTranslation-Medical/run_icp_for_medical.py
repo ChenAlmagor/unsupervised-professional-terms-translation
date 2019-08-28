@@ -147,7 +147,7 @@ if not os.path.exists(params.cp_dir):
 np.save("%s/%s_%s_T-medical" % (params.cp_dir, params.src_lang, params.tgt_lang), TX)
 np.save("%s/%s_%s_T-medical" % (params.cp_dir, params.tgt_lang, params.src_lang), TY)
 
-np.save('indices_x_medical_unsupervised_data', indices_x)
-np.save('indices_y_medical_unsupervised_data', indices_y)
+np.save('indices_x', indices_x)
+np.save('indices_y', indices_y)
 
 
