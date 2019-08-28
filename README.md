@@ -6,6 +6,7 @@ This repository contains the implementation for the project Unsupervised Word Tr
 * **`parsing.py`** - contains parsing methods.
 * **`medical-crawler`** - contains the data crawlers for English, Spanish and French dictionaries, and English-Spanish medical glossary.
 * **`neural networks`** - the implementation of the neural networks experiments. Note that it requires to upload the relevant data.
+   * for evaluation - download the saved model and load it in `eval_for_medical.py`
 * **`inferred-lexicon-by-definitions`** - the implementation of the inferred lexiocons by definitions. 
     * `build_inferred_lexicon.ipynb` - the implementation for building the dictionary and extracting the definitions embeddings. 
     * `encoder-embeddings-alignment` - the implementation for the inferred lexicon by the alignment method.
